@@ -1,0 +1,10 @@
+<html>
+<head>
+<a href="{{ url_for('Home') }}">Home Page</a>
+<a href="{{ url_for('Generate') }}">Generate Page</a>
+
+<body>
+<h1>{{  title  }} Page</h1>
+{% block body_content %}{% endblock %}
+</body>
+</html>
